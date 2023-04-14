@@ -5,7 +5,7 @@ let followers = parseInt(localStorage.getItem('followerCount')) || parseInt(foll
 
 followerCount.innerText = followers;
 
-if (followers > 331) {
+if (followers > 340) {
   followButton.innerText = "Followers";
   followButton.disabled = true;
 }
